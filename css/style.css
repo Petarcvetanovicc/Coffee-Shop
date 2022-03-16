@@ -1,0 +1,109 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+#hero-section {
+    
+    background:linear-gradient(to right, #4133329c,#4133329c), url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero-logo {
+    width: 256px;
+}
+#arrow-down {
+    display: block;
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 64px; 
+}
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+#header-logo {
+    height: 24px;
+}
+header a {
+    margin-left: 28px;
+    font-size: 1.2rem;
+}
+header a:link,
+header a:visited,
+header a:hover {
+    color: #fff;
+}
+
+
+#intro-section {
+    background-color: #eae7de;
+}
+
+
+#about-section-bg {
+    background-image: url(../img/great-place.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 480px;
+}
+#about-section-bg-2 {
+    background-image: url(../img/fresh-beans.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    min-height: 650px;
+}
+
+#menu-section {
+    background-color: #eae7de;
+}
+
+#contact-section {
+    background: linear-gradient(to right, #36313782, #36313782), url(../img/contact-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+#contact-section-bg-2 {
+    background-color: #312423a8;
+}
+footer {
+    background: #312423;
+}
+footer a img {
+    width: 32px;
+}
+footer p {
+    margin-bottom: 0;
+}
+footer a img {
+    margin-left: 10px;
+}
+#ham-menu {
+    width: 24px;
+}
+@media screen and (max-width: 768px) {
+    #about-section-bg-2 {
+        background: linear-gradient(#0000009c,#0000009c), url(../img/fresh-beans.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    footer div[class^="col"] {
+        text-align: center !important;
+    }
+    footer #footer-socials {
+        margin-top: 10px;
+    }
+    #menu-section .row div[class^="col"] {
+        margin-bottom: 15px;
+    }
+}
+
+
